@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Zagorac || Home</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- custom css -->
+    <!-- Local -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@latest/dist/css/glide.core.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@latest/dist/css/glide.theme.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@latest/dist/glide.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- nav button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <!-- nav -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items" id="nav-items"></ul>
+    </nav>
+    <!-- header -->
+    <header class="header">
+      <div class="banner">
+        <h3 class="banner-subtitle">Uz pomoć nas vaš dom će za jedan dan biti na drugoj lokaciji</h3>
+        <h1 class="banner-title">selidbe,prevoz i skladištenje robe</h1>
+        <a href="#" class="banner-btn" id="scroll-down"><i class="fas fa-chevron-down"></i></a>
+      </div>
+      <div class="image-change">
+        <div class="slide-background active"></div>
+        <div class="slide-background"></div>
+        <div class="slide-background"></div>
+      </div>
+    </header>
+    <div class="content-divider"></div>
+    <!-- skills section -->
+    <section class="skills clearfix">
+      <!-- single skill -->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-shipping-fast"></i>
+        </span>
+        <h3 class="skill-title">Brzina</h3>
+        <!-- ten words -->
+        <p class="skill-text">U roku od 24 sata vaš dom će biti preseljen na drugu odabranu lokaciju.</p>
+      </article>
+      <!-- end of single skill -->
+      <!-- single skill -->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-chart-line"></i>
+        </span>
+        <h3 class="skill-title"><span id="number-counter">0</span></h3>
+        <!-- ten words -->
+        <p class="skill-text">Od osnovanja firme brojimo preko 4000 zadovoljnih mušterija.</p>
+      </article>
+      <!-- end of single skill -->
+      <!-- single skill -->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="far fa-credit-card"></i>
+        </span>
+        <h3 class="skill-title">Plaćanje</h3>
+        <!-- ten words -->
+        <p class="skill-text">Plaćanje se vrši nakon završenog posla ako je mušterija zadovoljna.</p>
+      </article>
+      <!-- end of single skill -->
+      <!-- single skill -->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-shield-alt"></i>
+        </span>
+        <h3 class="skill-title">Odgovornost</h3>
+        <!-- ten words -->
+        <p class="skill-text">Novčano nadoknađujemo ako se vaša roba u transportu ošteti.</p>
+      </article>
+      <!-- end of single skill -->
+    </section>
+    <!--end of skills section -->
+    <!-- about -->
+    <section class="about">
+      <article class="about-img section-center clearfix">
+        <div class="glide">
+          <!-- Slides here -->
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide"><img src="images/01.jpeg" alt="" /></li>
+              <li class="glide__slide"><img src="images/02.jpeg" alt="" /></li>
+              <li class="glide__slide"><img src="images/01.jpeg" alt="" /></li>
+            </ul>
+          </div>
+          <!-- <a href="https://www.jqueryscript.net/tags.php?/Navigation/">Navigation</a> -->
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <i class="fas fa-chevron-left slider-arrow"></i>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <i class="fas fa-chevron-right slider-arrow"></i>
+            </button>
+          </div>
+          <!-- Pagination 
+		  <div class="glide__bullets" data-glide-el="controls[nav]">
+			<button class="glide__bullet" data-glide-dir="=0"></button>
+			<button class="glide__bullet" data-glide-dir="=1"></button>
+			<button class="glide__bullet" data-glide-dir="=2"></button>
+		  </div>-->
+        </div>
+      </article>
+      <!--<article class="about-img">
+          
+          <div class="about-picture-container">
+            <img
+              src="./images/01.jpeg"
+              alt="tea kettle"
+              class="about-picture"
+            />
+          </div>
+        </article>-->
+      <article class="about-info">
+        <!-- section title -->
+        <div>
+          <h3 class="section-subtitle">O nama</h3>
+          <h2 class="section-title">Zagorac firma</h2>
+        </div>
+        <!-- section title -->
+        <p class="about-text">
+          Naša firma je osnovana 2003. godine u Beogradu, napornim radom smo stekli poverenje mnogih mušterija i zbog
+          toga je naša firma u konstantnom rastu.
+        </p>
+        <p class="about-text">
+          U početku smo se bavili samo selidbama, a danas pružamo usluge prevoza, skladištenja robe i proizvodimo
+          sopstvene proizvode.
+        </p>
+        <button type="button" class="main-btn" id="procitaj-vise">pročitaj više</button>
+      </article>
+    </section>
+    <!-- end of about -->
+    <!-- products -->
+    <section class="products">
+      <div class="section-center clearfix">
+        <!-- products info  -->
+        <article class="products-info">
+          <!-- title -->
+          <div>
+            <h3 class="section-subtitle">pogledati</h3>
+            <h2 class="section-title text-white">naši proizvodi</h2>
+          </div>
+          <!-- end of title -->
+          <p class="product-text">
+            Od pre 4 godine bavimo se proizvodnjom i prodajom kućne hemikalije koja će vam dosta olakšati u sređivanju
+            vašeg doma!
+          </p>
+          <button type="button" class="main-btn" id="poruci-btn">poruči</button>
+        </article>
+        <!-- end of products info -->
+        <!-- products inventory -->
+        <article class="products-inventory clearfix">
+          <!-- single product -->
+          <div class="product">
+            <img src="./images/04.jpeg" alt="single product" class="product-img" />
+            <h3 class="product-title">Sredstvo za čišćenje kuhinje</h3>
+            <h3 class="product-price">350 dinara</h3>
+          </div>
+          <!--end of single product -->
+          <!-- single product -->
+          <div class="product">
+            <img src="./images/03.jpeg" alt="single product" class="product-img" />
+            <h3 class="product-title">Sredstvo za ribanje podova</h3>
+            <h3 class="product-price">420 dinara</h3>
+          </div>
+          <!--end of single product -->
+          <!-- single product -->
+          <div class="product">
+            <img src="./images/05.jpeg" alt="single product" class="product-img" />
+            <h3 class="product-title">Sredstvo za skidanje fleka</h3>
+            <h3 class="product-price">320 dinara</h3>
+          </div>
+          <!--end of single product -->
+        </article>
+        <!--end of  products inventory -->
+      </div>
+    </section>
+    <section class="poruci-form" id="poruci-form">
+      <h2 style="text-align: center">Poručivanje</h2>
+      <div class="poruci-form-content">
+        <form>
+          <div class="checkboxes-content">
+            <div>
+              <div>
+                <input type="checkbox" id="tchb1" name="tchb1" /><label for="tchb1">Sredstvo za čišćenje kuhinje</label>
+              </div>
+              <div>
+                <input type="checkbox" id="tchb2" name="tchb2" /><label for="tchb2">Sredstvo za ribanje podova</label>
+              </div>
+              <div>
+                <input type="checkbox" id="tchb3" name="tchb3" /><label for="tchb3">Sredstvo za skidanje fleka</label>
+              </div>
+              <div><span id="potvrdaError1" class="potvrda-error"></span></div>
+            </div>
+            <div>
+              <div>
+                <select id="tc1select" disabled></select>
+              </div>
+              <div>
+                <select id="tc2select" disabled></select>
+              </div>
+              <div>
+                <select id="tc3select" disabled></select>
+              </div>
+            </div>
+          </div>
+          <div>
+            <span>Grad:</span>
+            <select id="selectGrad" class="selectGrad">
+              <option value="0">Izaberi...</option>
+            </select>
+            <div><span id="potvrdaError2" class="potvrda-error"></span></div>
+            <input type="text" name="tbUlica" placeholder="Ulica i broj" class="form-control" id="tbUlica" />
+            <div><span id="potvrdaError3" class="potvrda-error"></span></div>
+            <input type="text" name="tbTel" placeholder="Broj telefona" class="form-control" id="tbTel" />
+            <div><span id="potvrdaError4" class="potvrda-error"></span></div>
+          </div>
+          <div class="potvrda-btn-holder">
+            <button type="button" class="main-btn" id="potvrda-btn" class="potvrda-btn">Potvrdi</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- end of  products -->
+    <!-- services -->
+    <section class="services">
+      <!-- title -->
+      <!-- add text center class remove text white from h2 -->
+      <div class="services-title text-center">
+        <h3 class="section-subtitle">Pogledati</h3>
+        <h2 class="section-title">naše usluge</h2>
+      </div>
+      <!-- end of title -->
+      <div class="section-center clearfix">
+        <!-- single service card -->
+        <article class="service-card">
+          <!-- img container -->
+          <div class="service-img-container">
+            <!-- img  -->
+            <img src="./images/06.jpeg" class="service-img" alt="" />
+            <!-- service icon -->
+            <span class="service-icon">
+              <i class="fas fa-people-carry"></i>
+            </span>
+          </div>
+          <!-- end of img container -->
+          <div class="service-info">
+            <h4 class="service-info-title">Selidbe</h4>
+            <button type="button" class="service-btn">saznaj više</button>
+          </div>
+          <div class="service-card-description">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button type="button" class="close-service-btn">zatvori</button>
+          </div>
+        </article>
+        <!-- end of single service card -->
+        <!-- single service card -->
+        <article class="service-card">
+          <div class="service-img-container">
+            <img src="./images/07.jpeg" class="service-img" alt="" />
+            <!-- service icon -->
+            <span class="service-icon">
+              <i class="fas fa-truck-moving"></i>
+            </span>
+          </div>
+          <div class="service-info">
+            <h4 class="service-info-title">Prevoz materijala</h4>
+            <button type="button" class="service-btn">saznaj više</button>
+          </div>
+          <div class="service-card-description">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button type="button" class="close-service-btn">zatvori</button>
+          </div>
+        </article>
+        <!-- end of single service card -->
+        <!-- single service card -->
+        <article class="service-card">
+          <div class="service-img-container">
+            <img src="./images/08.jpeg" class="service-img" alt="" />
+            <!-- service icon -->
+            <span class="service-icon">
+              <i class="fas fa-warehouse"></i>
+            </span>
+          </div>
+          <div class="service-info">
+            <h4 class="service-info-title">skladištenje robe</h4>
+            <button type="button" class="service-btn">saznaj više</button>
+          </div>
+          <div class="service-card-description">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button type="button" class="close-service-btn">zatvori</button>
+          </div>
+        </article>
+        <!-- end of single service card -->
+      </div>
+    </section>
+    <!-- end of services -->
+    <!-- contact -->
+    <section class="contact">
+      <div class="section-center clearfix">
+        <!-- contact info -->
+        <article class="contact-info">
+          <!-- contact item -->
+          <div class="contact-item">
+            <!-- contact text -->
+            <h3 class="contact-title">
+              <span class="contact-icon"> <i class="fas fa-location-arrow"></i> </span>adresa
+            </h3>
+            <h3 class="contact-text">Bulevar Kralja Aleksandra 43, Beograd</h3>
+          </div>
+          <!-- end of contact item -->
+          <!-- contact item -->
+          <div class="contact-item">
+            <!-- contact text -->
+            <h3 class="contact-title">
+              <span class="contact-icon"> <i class="fas fa-envelope"></i> </span>email
+            </h3>
+            <h3 class="contact-text">zagoracdoo@email.com</h3>
+          </div>
+          <!-- end of contact item -->
+          <!-- contact item -->
+          <div class="contact-item">
+            <!-- contact text -->
+            <h3 class="contact-title">
+              <span class="contact-icon"> <i class="fas fa-location-arrow"></i> </span>telefon
+            </h3>
+            <h3 class="contact-text">+ 123 456 789</h3>
+          </div>
+          <!-- end of contact item -->
+        </article>
+        <article class="contact-form">
+          <form action="#" method="GET" class="form-group">
+            <input type="text" name="name" placeholder="Ime" class="form-control" id="tbIme" />
+            <div><span id="error1" class="kontakt-error"></span></div>
+            <input type="email" name="email" placeholder="Email" class="form-control" id="tbEmail" />
+            <div><span id="error2" class="kontakt-error"></span></div>
+            <textarea name="message" placeholder="Poruka" class="form-control" rows="5" id="taPoruka"></textarea>
+            <div><span id="error3" class="kontakt-error"></span></div>
+            <button type="button" class="main-btn" id="contact-send">Pošalji</button>
+            <div><span id="kontaktPoslato" class="kontakt-sent"></span></div>
+          </form>
+        </article>
+        <!-- end of contact info -->
+      </div>
+    </section>
+    <!-- end o fcontact -->
+    <footer class="footer">
+      <div class="section-center">
+        <div class="social-icons"></div>
+        <p class="footer-text">&copy;2021 <span class="text-primary">Zagorac.doo</span>. all rights reserved</p>
+      </div>
+    </footer>
+    <div class="modal" id="modal">
+      <div class="modal-inner">
+        <i class="fas fa-times close-modal" id="close-modal"></i>
+        <div class="modal-content">
+          <div class="modal-image">
+            <img src="images/09.jpg" alt="" />
+          </div>
+          <div class="modal-text">
+            <p>
+              Naša firma je osnovana 2003. godine u Beogradu, napornim radom smo stekli poverenje mnogih mušterija i
+              zbog toga je naša firma u konstantnom rastu.
+            </p>
+
+            <p>
+              U početku smo se bavili samo selidbama, a danas pružamo usluge prevoza, skladištenja robe i proizvodimo
+              sopstvene proizvode.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script src="home.js"></script>
+  </body>
+</html>
