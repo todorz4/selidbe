@@ -478,6 +478,12 @@ a {
     float: left;
     width: 30%;
   }
+  @media screen and (max-width: 960px) {
+  .about-picture-container {
+    margin:auto;
+    width: 60%;
+  }
+}
   .products-inventory {
     float: left;
     width: 70%;
